@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: poppins;
+    margin-top: 20px;
+    align-items: center;
+    color: blueviolet;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.nav-itens{
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-itens>li>a{
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.login{
+    padding: 10px 40px;
+    font-size: 15px;
+    background-color:#dcdcdc ;
+    border: none;
+    border-radius: 50px;
+    color:black;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.login:hover{
+    background-color: #b9acc4;
+}
+
+.cadastro{
+    padding: 10px 40px;
+    font-size: 15px;
+    background-color:rgba(137, 43, 226, 0.762) ;
+    border: none;
+    border-radius: 50px;
+    color:black;
+    cursor: pointer;
+    transition: 1s background;
+
+}
+
+.cadastro:hover{
+    background-color: blueviolet;
+}
